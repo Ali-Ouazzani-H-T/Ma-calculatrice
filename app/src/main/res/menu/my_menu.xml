@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/Home"/>
+        <item android:title="Calculatrices">
+            <menu>
+                <item android:id="@+id/Standard"
+                    android:icon="@drawable/ic_baseline_calculate_24"
+                    android:title="Standard"/>
+
+                <item android:id="@+id/Scientifique"
+                    android:icon="@drawable/ic_baseline_science_24"
+                    android:title="Scientifique"/>
+
+                <item android:id="@+id/Graphique"
+                    android:icon="@drawable/ic_baseline_auto_graph_24"
+                    android:title="Graphique"/>
+            </menu>
+        </item>
+
+        <item android:title="Convertisseur">
+            <menu>
+                <item android:title="Temperature"
+                    android:id="@+id/temperature"
+                    android:icon="@drawable/ic_baseline_device_thermostat_24"/>
+                <item android:title="Poid"
+                    android:icon="@drawable/ic_baseline_balance_24"
+                    android:id="@+id/poids"/>
+            </menu>
+        </item>
+
+
+</menu>
